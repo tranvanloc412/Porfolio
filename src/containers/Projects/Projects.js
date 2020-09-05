@@ -14,7 +14,7 @@ class projects extends Component {
         )} Victor from Adventure Cord approached me to develop a website for his Discord bot where users can log in with their Discord accounts and view their profile stats, view other users's stats, read news and updates for the bot directly from the team and purchase products to use within the bot. Since I had a lot of time to build the project and wanted to learn as much as possible, 
                             I decided to build everything from scratch.`,
         skills: ["html", "css", "react", "firebase"],
-        img: <img src="/img/messenger-clone.jpg" alt="messenger-clone"></img>,
+        img: <img src="/img/messenger-clone.png" alt="messenger-clone"></img>,
         link: "https://facebook-messenger-clone-34544.web.app/",
       },
       {
