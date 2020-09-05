@@ -19,7 +19,7 @@ const projectInfo = (props) => {
         <InfoDescription summary={props.summary} />
         <div className="Button-description">
           <Button1 clicked={openNewWindow}>DEMO</Button1>
-          <Button1 link="/">Code</Button1>
+          <Button1 link="/">CODE</Button1>
         </div>
       </div>
     </div>
