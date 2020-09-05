@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 700px) {
+  * {
+    font-size: 16px;
+  }
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Staatliches", cursive, sans-serif;
+  overflow: auto;
+  color: var(--white-color);
+  position: relative;
+}
+#root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  /* About */
+  --primary-color: #343a41;
+  --primary-sub-color: #fa1d0e;
+
+  /* Projects */
+  --project-info-background: #3a4147;
+
+  /* Navigation */
+  --nav-background-color: #2a3035;
+
+  /* Footer */
+  --footer-color: #171a1d;
+
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #94a4b4;
+  --text-dark-color: #5b6570;
+  --dark-color: #252a2e;
+
+  /* Scroll */
+  --scroll-color: #97bfd3;
+
+  /* Contacts */
+  --email-color: #6fc2b0;
+  --github-color: #333;
+  --likedin-color: #0077b5;
+  --resume-color: #565f69;
+
+  /* Button Background */
+  --btn-background-color: #22262a;
+
+  --second-font: "Lato", sans-serif;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+  background-color: var(--footer-color);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: var(--footer-color);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: var(--scroll-color);
+}

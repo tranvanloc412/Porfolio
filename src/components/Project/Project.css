@@ -1,0 +1,53 @@
+.Project {
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  height: 200px;
+  width: 320px;
+  position: relative;
+  background-color: rgba(var(--black-color), 0.7);
+}
+
+.Project img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border: 2px var(--black-color) solid;
+  border-radius: 2px;
+}
+
+.Background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease-in;
+  opacity: 0;
+}
+
+.Button-project {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Project:hover .Background {
+  opacity: 1;
+}
+
+@media screen and (min-width: 800px) {
+  .Project {
+    height: 300px;
+    width: 500px;
+  }
+}

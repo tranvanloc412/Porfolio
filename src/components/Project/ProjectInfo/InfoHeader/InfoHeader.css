@@ -1,0 +1,28 @@
+.Project-name {
+    color: var(--white-color);
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 10px auto;
+}
+
+.Skills-info {
+    /* text-transform: capitalize; */
+    font-size: 0.9rem;
+    display: inline-block;
+    margin: 0 8px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius:4px;
+    background-color: var(--dark-color);
+    color: var(--text-color)
+}
+
+.Project-header {
+    padding: 15px;
+}
+
+.Project-label {
+    color: var(--text-color);
+    font-size: 1.3rem;
+};
+

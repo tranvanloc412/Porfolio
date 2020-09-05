@@ -1,0 +1,41 @@
+.About {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px;
+  min-height: 100vh;
+  text-align: center;
+  animation: rotate 1s;
+}
+@media screen and (min-width: 900px) {
+  .About {
+    margin: 0 200px;
+  }
+}
+
+.Button-about {
+  margin-top: 80px;
+}
+
+.Button-about a {
+  text-decoration: none;
+}
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: rotate(8deg);
+  }
+  80% {
+    opacity: 0.8;
+    visibility: visible;
+    transform: rotate(-1deg);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,22 @@
+.Sub {
+  display: inline-block;
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+  color: var(--primary-sub-color);
+  margin: 0px 3px;
+  padding: 2px;
+}
+
+.Sub.top {
+  cursor: context-menu;
+  animation: top 0.25s;
+}
+
+@keyframes top {
+  0% {
+    transform: translateY(0rem);
+  }
+  100% {
+    transform: translateY(-0.2rem);
+  }
+}

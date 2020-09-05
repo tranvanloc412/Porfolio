@@ -1,0 +1,14 @@
+.Brand {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  .Brand {
+    margin-left: 20px;
+  }
+}
+
+.Brand img {
+  width: 120px;
+  height: 60px;
+}

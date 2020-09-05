@@ -1,0 +1,17 @@
+.Button-close {
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    transition: all 150ms;
+}
+
+.fas.fa-times {
+    font-size: 35px;
+    color: var(--text-color);
+}
+
+.Button-close:hover {
+    transform: scale(1.25);
+}

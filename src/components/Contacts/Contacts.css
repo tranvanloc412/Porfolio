@@ -1,0 +1,9 @@
+.Contacts {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.Contacts-list {
+  list-style: none;
+}

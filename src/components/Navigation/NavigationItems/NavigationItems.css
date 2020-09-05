@@ -1,0 +1,30 @@
+.Navigation-items {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-color: var(--nav-background-color);
+  display: flex;
+  flex-flow: column;
+  z-index: 20;
+  transform: translateY(-100%);
+  transition: all 400ms;
+}
+
+.Navigation-items.show {
+  transform: translateY(0%);
+}
+
+.Navigation-items ul {
+  margin: auto;
+  padding: 30px 100px;
+  background-color: var(--footer-color);
+  border-radius: 6px;
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
+}

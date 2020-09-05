@@ -1,0 +1,33 @@
+.Projects-Control {
+  margin: 80px 10px 50px 50px;
+  text-transform: lowercase;
+}
+
+.Projects-Control h1 {
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.Projects-Control p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: var(--text-color);
+}
+
+.Projects {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  .Projects-Control {
+    margin: 100px;
+  }
+  .Projects {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+}

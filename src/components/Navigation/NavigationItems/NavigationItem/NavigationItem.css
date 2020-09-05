@@ -1,0 +1,17 @@
+.Navigation-item {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 20px 0;
+}
+.Navigation-item a {
+  color: var(--white-color);
+  text-decoration: none;
+  box-sizing: border-box;
+  display: block;
+  font-size: 2rem;
+}
+
+.Navigation-item a:hover,
+.Navigation-item a:active {
+  color: #40a4c8;
+}
