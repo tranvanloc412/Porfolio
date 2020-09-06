@@ -1,13 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import './ButtonSmall.css';
+import "./ButtonSmall.css";
 
 const buttonSmall = (props) => {
-    return <button 
-        onClick={props.clicked}
-        className="Button-small">
+  return (
+    <div className="Button-small">
+      <button onClick={props.clicked} className="Button-small top">
         {props.children}
-    </button>
-}
+      </button>
+      <button onClick={props.clicked} className="Button-small bot">
+        {props.children}
+      </button>
+    </div>
+  );
+};
 
 export default buttonSmall;

@@ -5,7 +5,7 @@ import "./Button.css";
 
 const button = (props) => {
   return (
-    <Link to={props.link} className="Button">
+    <Link to={props.link ? props.link : "/"} className="Button">
       <button onClick={props.clicked} className="Button top">
         {props.children}
       </button>

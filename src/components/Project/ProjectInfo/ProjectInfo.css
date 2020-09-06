@@ -36,7 +36,7 @@
 
 .Project-description {
   width: 300px;
-  height: 100px;
+  height: auto;
 }
 .Button-description {
   display: flex;
@@ -46,8 +46,8 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 70%;
-  margin-bottom: 5px;
+  width: 60%;
+  margin-bottom: 15px;
 }
 @media screen and (min-width: 700px) {
   .Project-info {
@@ -56,14 +56,11 @@
     margin: auto;
   }
   .Info-left {
+    height: 420px;
     width: 550px;
-    height: 450px;
   }
   .Info-right {
-    height: 450px;
+    height: 420px;
     width: 400px;
-  }
-  .Button-description {
-    margin-bottom: 10px;
   }
 }

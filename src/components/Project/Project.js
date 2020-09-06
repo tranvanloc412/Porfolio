@@ -19,6 +19,7 @@ class Project extends Component {
   render() {
     const projectInfo = (
       <ProjectInfo
+        linkCode={this.props.linkCode}
         link={this.props.link}
         name={this.props.name}
         summary={this.props.summary}

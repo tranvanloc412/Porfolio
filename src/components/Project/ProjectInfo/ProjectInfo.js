@@ -3,12 +3,15 @@ import React from "react";
 import "./ProjectInfo.css";
 import InfoHeader from "./InfoHeader/InfoHeader";
 import InfoDescription from "./InfoDescription/InfoDescription";
-import Button1 from "../../UI/Button/Button";
+import ButtonSmall from "../../UI/Button/ButtonSmall";
 import ButtonClose from "../../UI/Button/ButtonClose";
 
 const projectInfo = (props) => {
   const openNewWindow = () => {
     window.open(`${props.link}`);
+  };
+  const openNewWindowCode = () => {
+    window.open(`${props.linkCode}`);
   };
   return (
     <div className="Project-info">
@@ -18,8 +21,8 @@ const projectInfo = (props) => {
         <InfoHeader name={props.name} skills={props.skills} />
         <InfoDescription summary={props.summary} />
         <div className="Button-description">
-          <Button1 clicked={openNewWindow}>DEMO</Button1>
-          <Button1 link="/">CODE</Button1>
+          <ButtonSmall clicked={openNewWindow}>DEMO</ButtonSmall>
+          <ButtonSmall clicked={openNewWindowCode}>CODE</ButtonSmall>
         </div>
       </div>
     </div>
