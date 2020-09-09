@@ -1,22 +1,28 @@
-.Project-summary {
-  line-height: 1.5;
-  color: var(--text-color);
-  overflow-y: scroll;
-  white-space: pre-line;
-  width: 100%;
-  height: 160px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-.Project-description {
-  width: 100%;
-  padding: 5px 5px 5px 15px;
+.Project-summary::first-letter {
+  margin-left: 20px;
 }
 
 @media screen and (min-width: 700px) {
-  .Project-summary {
+  .Project-summaries {
     width: 95%;
     height: 160px;
     margin-top: 1rem;
   }
+}
+
+.Project-summaries {
+  line-height: 1.5;
+  color: var(--text-color);
+
+  white-space: pre-line;
+  width: 100%;
+  height: 160px;
+  font-family: "Lato", sans-serif !important;
+  font-weight: 300;
+}
+
+.Project-description {
+  overflow-y: scroll;
+  width: 100%;
+  padding: 5px 5px 5px 15px;
 }

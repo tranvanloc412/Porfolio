@@ -21,7 +21,7 @@ const contact = (props) => {
     },
     resume: {
       link:
-        "https://drive.google.com/file/d/1pQFiVRi6l04uRN9k-g1gnOfvCYOhWXx6/view?usp=sharing",
+        "https://drive.google.com/file/d/1wDm9BRVAvNa3BM86BEdGgTkXQOF5XHd1/view?usp=sharing",
       icon: <i className="far fa-id-badge"></i>,
     },
   };

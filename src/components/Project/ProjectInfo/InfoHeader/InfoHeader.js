@@ -6,7 +6,7 @@ const infoHeader = (props) => {
   const skills = props.skills.map((skill) => (
     <span className="Skills-info" key={skill}>
       {" "}
-      {skill}{" "}
+      {skill.toUpperCase()}{" "}
     </span>
   ));
   return (
